@@ -1,0 +1,16 @@
+.title {
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+.list {
+list-style: none;
+}
+
+.item {
+    text-transform: capitalize;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}

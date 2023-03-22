@@ -1,0 +1,15 @@
+
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.item:not(:last-child) {
+    margin-right: 13px;
+}
