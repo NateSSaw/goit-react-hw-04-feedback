@@ -1,7 +1,10 @@
 
 
 .list {
+
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
 }
 
@@ -13,3 +16,13 @@
 .item:not(:last-child) {
     margin-right: 13px;
 }
+
+.btn {
+    width: 100px;
+    height: 30px;
+
+    border-radius: 4px;
+    
+    font-size: 20px;
+}
+
