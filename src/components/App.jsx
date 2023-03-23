@@ -66,3 +66,19 @@ export class App extends Component {
     );
   }
 }
+
+// const handleAddFeedback = option => {
+//   switch (option) {
+//     case 'good':
+//       setGood(prevState => prevState + 1);
+//       break;
+//     case 'neutral':
+//       setNeutral(prevState => prevState + 1);
+//       break;
+//     case 'bad':
+//       setBad(prevState => prevState + 1);
+//       break;
+//     default:
+//       return alert('No such state option');
+//   }
+// };
