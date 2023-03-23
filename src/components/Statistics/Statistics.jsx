@@ -5,7 +5,7 @@ export default function Statistics({
   neutral,
   bad,
   total,
-  positiveFeedback,
+  positivePercentage,
 }) {
   return (
     <div className="statistics">
@@ -13,8 +13,8 @@ export default function Statistics({
         <li className={css.item}>Good: {good}</li>
         <li className={css.item}>Neutral: {neutral}</li>
         <li className={css.item}>Bad: {bad}</li>
-        <li className={css.item}>Total: {total}</li>
-        <li className={css.item}>Positive feedback: {positiveFeedback}%</li>
+        <li className={css.item}>Total: {total()}</li>
+        <li className={css.item}>Positive feedback: {positivePercentage()}%</li>
       </ul>
     </div>
   );
